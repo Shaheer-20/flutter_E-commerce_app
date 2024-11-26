@@ -1,0 +1,35 @@
+name: ecommerce_app
+description: "A new Flutter project."
+publish_to: 'none' # Prevent accidental publication
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.0.0
+  provider: ^6.0.0
+  fluttertoast: ^8.0.9
+  shared_preferences: ^2.1.1
+  carousel_slider: ^5.0.0
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/pic1.jpg
+    - assets/images/product2.avif
+    - assets/images/product3.jpg
+    
+# Notes:
+# - Ensure all image files (pic1.jpg, product2.jpg, product3.jpg) exist in the "assets/images/" directory.
+# - File paths are case-sensitive, so verify the file names and extensions (e.g., .jpg vs .jpeg).
+# - Ensure the "assets/images/" directory is inside your Flutter project's root folder.
